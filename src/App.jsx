@@ -1,4 +1,5 @@
 import Best from "./components/Best"
+import DesktopNavbar from "./components/DesktopNavbar"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Newsletter from "./components/Newsletter"
@@ -12,6 +13,7 @@ function App() {
     <>
     <TopNav/>
     <Navbar/>
+    <DesktopNavbar/>
     <Products/>
     <Best/>
     <Recent/>
