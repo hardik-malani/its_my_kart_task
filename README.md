@@ -1,8 +1,42 @@
-# React + Vite
+<div align="center">
+  <h1>It's My Kart ( Task )</h1>
+  <p>
+    <strong>A one stop shopping solution</strong>
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Local installation
 
-Currently, two official plugins are available:
+1. Clone the repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, you need to clone the repository
+
+```
+git clone https://github.com/hardik-malani/its_my_kart_task.git
+```
+
+2. Install Dependencies
+
+Install the project's dependencies:
+
+```
+npm i
+```
+
+3. Start the Project
+
+Once all the dependencies are installed, you can start the project:
+
+```
+npm run dev
+```
+
+The project should now be running on `http://localhost:5173`
+
+# Deployed-Link
+
+https://its-my-kart-tau.vercel.app/
+
+# Contributors
+
+* Hardik Malani
