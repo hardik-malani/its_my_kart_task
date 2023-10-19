@@ -18,7 +18,7 @@ export default function Navbar() {
         <button className="my-2 mx-2 hover:cursor-pointer">
           <FaBars size={30} />
         </button>
-        <span className="text-2xl font-semibold ml-5 relative bottom-1">
+        <span className="md:text-2xl font-semibold ml-2 md:ml-5 relative bottom-1">
           It's My Kart
         </span>
       </div>

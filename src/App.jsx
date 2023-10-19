@@ -1,6 +1,7 @@
 import Best from "./components/Best"
 import DesktopNavbar from "./components/DesktopNavbar"
 import Footer from "./components/Footer"
+import Heroimg from "./components/Heroimg"
 import Navbar from "./components/Navbar"
 import Newsletter from "./components/Newsletter"
 import Products from "./components/Products"
@@ -11,14 +12,17 @@ function App() {
 
   return (
     <>
+    <div className="overflow-hidden">
     <TopNav/>
     <Navbar/>
     <DesktopNavbar/>
+    <Heroimg/>
     <Products/>
     <Best/>
     <Recent/>
     <Newsletter/>
     <Footer/>
+    </div>
     </>
   )
 }

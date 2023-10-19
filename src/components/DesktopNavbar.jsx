@@ -34,7 +34,7 @@ export default function DesktopNavbar() {
   return (
     <div className="py-4 px-3 w-screen lg:flex flex-col hidden">
       <div className="flex flex-row justify-evenly">
-        <span className="text-2xl font-semibold ml-5 mt-1">It's My Kart</span>
+        <span className="text-3xl font-semibold ml-5 mt-1">It's My Kart</span>
         <div className="flex flex-row space-x-5">
           <button className="my-2 mx-2 hover:cursor-pointer">
             <FaBars size={20} />
