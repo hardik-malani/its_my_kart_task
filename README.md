@@ -3,6 +3,7 @@
   <p>
     <strong>A one stop shopping solution</strong>
   </p>
+</div>
 
 # Local installation
 
