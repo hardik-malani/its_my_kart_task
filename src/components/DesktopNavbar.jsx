@@ -5,7 +5,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoMdPerson, IoMdCart } from "react-icons/io";
 import { Tooltip, Button } from "@material-tailwind/react";
 
-export default function DesktopNavbar() {
+export default function DesktopNavbar({ toggleSidebar } ) {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const techItems = [
@@ -36,7 +36,7 @@ export default function DesktopNavbar() {
       <div className="flex flex-row justify-evenly">
         <span className="text-3xl font-semibold ml-5 mt-1">It's My Kart</span>
         <div className="flex flex-row space-x-5">
-          <button className="my-2 mx-2 hover:cursor-pointer">
+          <button className="my-2 mx-2 hover:cursor-pointer"  onClick={toggleSidebar}>
             <FaBars size={20} />
           </button>
           <div className="w-[40rem] mt-1 border-2 border-[#fed700] rounded-3xl flex flex-row">

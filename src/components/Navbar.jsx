@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
 import { HiShoppingBag } from "react-icons/hi";
 
-export default function Navbar() {
+export default function Navbar({ toggleSidebar }) {
   const [isSearchOpen, setSearchOpen] = useState(false);
 
   const toggleSearch = () => {
@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div className="h-[50px] sticky top-0 w-screen bg-[#fed700] lg:hidden flex justify-between">
       <div>
-        <button className="my-2 mx-2 hover:cursor-pointer">
+        <button className="my-2 mx-2 hover:cursor-pointer" onClick={toggleSidebar}>
           <FaBars size={30} />
         </button>
         <span className="md:text-2xl font-semibold ml-2 md:ml-5 relative bottom-1">

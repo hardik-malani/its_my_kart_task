@@ -3,7 +3,7 @@ import { FaTelegram } from "react-icons/fa";
 
 export default function Newsletter() {
   return (
-    <div className="w-screen bg-[#fed700] flex justify-evenly p-2">
+    <div className="w-screen bg-[#fed700] lg:flex justify-evenly p-2 hidden">
       <div className="w-[50%] flex flex-row space-x-9 py-2">
         <div className="flex space-x-4">
           <FaTelegram size={30}></FaTelegram>
