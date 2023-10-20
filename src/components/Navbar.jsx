@@ -34,7 +34,7 @@ export default function Navbar() {
         </button>
       </div>
       {isSearchOpen && (
-        <div className='fixed top-[50px] left-0 w-full bg-white p-2 shadow-xl py-3'>
+        <div className='fixed top-[50px] left-0 w-full bg-white p-2 shadow-xl py-3 z-10'>
           <div className='flex'>
             <AiOutlineSearch size={20} />
             <input type="text" className='w-full ml-2 border-none px-3 focus:outline-none focus:border-none' placeholder="Search..." />

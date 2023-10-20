@@ -14,7 +14,7 @@ export default function Heroimg() {
       </div>
       <img
         src="/homepage-img.png"
-        className="w-auto transform transition-transform ease-in duration-7000 translate-x-0"
+        className="w-auto -z-1"
         alt=""
       />
     </div>
